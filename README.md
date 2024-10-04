@@ -2,7 +2,7 @@ __Forked from https://gitlab.com/dmp-repo/js-pkg/ngx-d3__
 
 `ngx-d3` is a [D3](https://github.com/d3/d3) wrapper service for [Angular](https://angular.io/) applications inspired by [@tomwanzek/d3-ng2-service](https://github.com/tomwanzek/d3-ng2-service).
 
-Sadly, tomwanzek is no longer maintaining the project. The last push for his library was in April 2018 and the latest supported version of angular is Angular 5. The torch of keeping the package up to speed in terms of angular compatibility was then passed onto ZeevKats's [@katze/ngx-d3](https://www.npmjs.com/package/@katze/ngx-d3) package, which kept the package updated up to angular 12, and finally to dmp's [@d-m-p/ngx-d3](https://www.npmjs.com/package/@d-m-p/ngx-d3) which kept it updated up to angular 16.  
+Sadly, tomwanzek is no longer maintaining the project. The last push for his library was in April 2018 and the latest supported version of angular is Angular 5. The torch of keeping the package up to speed in terms of angular compatibility was then passed onto ZeevKats's [@katze/ngx-d3](https://www.npmjs.com/package/@katze/ngx-d3) package, which kept the package updated up to angular 12, and finally to dmp's [@d-m-p/ngx-d3](https://www.npmjs.com/package/@d-m-p/ngx-d3) which kept it updated up to angular 16.
 
 The package appears to be no longer maintained as it has now fallen behind a couple versions and I am taking over the mantle.
 
@@ -10,7 +10,7 @@ The package appears to be no longer maintained as it has now fallen behind a cou
 ### Installation
 
 ```
-yarn add @katze/ngx-d3
+yarn add @upthere/ngx-d3
 ```
 ---
 ### Usage
@@ -26,7 +26,7 @@ To obtain the `d3` object from an injected D3 service `ngxD3Service: NgxD3Servic
 
 ```ts
 import { Component, OnInit } from '@angular/core';
-import { NgxD3Service } from '@katze/ngx-d3';
+import { NgxD3Service } from '@upthere/ngx-d3';
 
 @Component({
   selector: 'histogram-component',
