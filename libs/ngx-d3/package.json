@@ -1,0 +1,69 @@
+{
+  "name": "@d-m-p/ngx-d3",
+  "version": "16.0.3",
+  "author": {
+    "name": "Zeev Katz",
+    "url": "https://github.com/ZeevKatz"
+  },
+  "contributors": [
+    "DMP-Team <repo-npm@digital-media-park.de> (https://gitlab.com/dmp-repo/js-pkg/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/dmp-repo/js-pkg/ngx-d3"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/dmp-repo/js-pkg/ngx-d3/-/issues"
+  },
+  "description": "A D3 service for Angular applications",
+  "keywords": [
+    "ngx-d3",
+    "angular-d3",
+    "ng-d3",
+    "katze",
+    "d3",
+    "ng",
+    "ngx",
+    "angular",
+    "d3-array",
+    "d3-axis",
+    "d3-brush",
+    "d3-chord",
+    "d3-collection",
+    "d3-color",
+    "d3-contour",
+    "d3-dispatch",
+    "d3-drag",
+    "d3-dsv",
+    "d3-ease",
+    "d3-force",
+    "d3-format",
+    "d3-geo",
+    "d3-hierarchy",
+    "d3-interpolate",
+    "d3-path",
+    "d3-polygon",
+    "d3-quadtree",
+    "d3-random",
+    "d3-scale",
+    "d3-scale-chromatic",
+    "d3-selection",
+    "d3-shape",
+    "d3-time",
+    "d3-time-format",
+    "d3-timer",
+    "d3-transition",
+    "d3-voronoi",
+    "d3-zoom"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/d3": "^7.4.0",
+    "d3": "^7.8.5",
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  }
+}
