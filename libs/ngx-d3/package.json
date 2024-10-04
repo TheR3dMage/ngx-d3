@@ -1,19 +1,19 @@
 {
-  "name": "@d-m-p/ngx-d3",
+  "name": "@upthere/ngx-d3",
   "version": "16.0.3",
   "author": {
-    "name": "Zeev Katz",
-    "url": "https://github.com/ZeevKatz"
+    "name": "Upthere",
+    "url": "https://github.com/myvirtualab-it"
   },
   "contributors": [
     "DMP-Team <repo-npm@digital-media-park.de> (https://gitlab.com/dmp-repo/js-pkg/)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/dmp-repo/js-pkg/ngx-d3"
+    "url": "https://github.com/myvirtualab-it/ngx-d3"
   },
   "bugs": {
-    "url": "https://gitlab.com/dmp-repo/js-pkg/ngx-d3/-/issues"
+    "url": "https://github.com/myvirtualab-it/ngx-d3/issues"
   },
   "description": "A D3 service for Angular applications",
   "keywords": [
@@ -58,12 +58,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@types/d3": "^7.4.0",
-    "d3": "^7.8.5",
-    "tslib": "^2.0.0"
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "tslib": "^2.7.0"
   },
   "peerDependencies": {
-    "@angular/common": "^16.0.0",
-    "@angular/core": "^16.0.0"
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0"
   }
 }
